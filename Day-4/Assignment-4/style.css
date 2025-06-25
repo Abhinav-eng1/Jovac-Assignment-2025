@@ -1,0 +1,20 @@
+/* Targeting element with ID inside a container */
+.container #myHeader {
+    color: red;
+}
+
+/* Adjacent sibling selector */
+div + h3 {
+    color: green;
+}
+
+/* Adjacent class selector */
+.myText1 + .myText2 {
+    color: orange;
+}
+
+/* Attribute selectors for inputs */
+.myInput[type='text'],
+input[type='email'] {
+    border: 2px solid green;
+}
