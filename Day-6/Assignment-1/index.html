@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grade Evaluator</title>
+</head>
+<body>
+
+<script>
+  // Prompt user for input
+  let marks = prompt("Enter your marks (0 - 100):");
+
+  // Convert input to a number
+  marks = Number(marks);
+
+  // Validate the input
+  if (isNaN(marks) || marks < 0 || marks > 100) {
+    alert("Invalid input! Please enter a number between 0 and 100.");
+  } else {
+    let grade;
+    let message;
+
+    // Determine grade using if-else
+    if (marks >= 90 && marks <= 100) {
+      grade = "A";
+    } else if (marks >= 75 && marks <= 89) {
+      grade = "B";
+    } else if (marks >= 60 && marks <= 74) {
+      grade = "C";
+    } else if (marks >= 40 && marks <= 59) {
+      grade = "D";
+    } else {
+      grade = "F";
+    }
+
+    // Use switch to determine message
+    switch (grade) {
+      case "A":
+        message = "Excellent!";
+        break;
+      case "B":
+        message = "Great job!";
+        break;
+      case "C":
+        message = "Good effort.";
+        break;
+      case "D":
+        message = "You passed.";
+        break;
+      case "F":
+        message = "Better luck next time.";
+        break;
+    }
+
+    // Show result
+    alert(`Your grade is ${grade}. ${message}`);
+  }
+</script>
+
+</body>
+</html>
