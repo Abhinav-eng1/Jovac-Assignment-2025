@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet the Team</title>
+  <style>
+    .team-container {
+      width: 1000px;
+      margin: 50px auto;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .team-card {
+      width: 220px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .team-card:hover {
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .team-card img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .team-card h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+    }
+
+    .team-card h4 {
+      margin: 0;
+      color: #555;
+      font-size: 14px;
+    }
+
+    .team-card p {
+      font-size: 13px;
+      color: #666;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <section class="team-container">
+    <div class="team-card">
+      <img src="https://via.placeholder.com/150" alt="John Doe" />
+      <h3>John Doe</h3>
+      <h4>Frontend Developer</h4>
+      <p>John specializes in building responsive user interfaces using React and Tailwind.</p>
+    </div>
+    <div class="team-card">
+      <img src="https://via.placeholder.com/150" alt="Jane Smith" />
+      <h3>Jane Smith</h3>
+      <h4>Backend Developer</h4>
+      <p>Jane is an expert in Node.js and databases, ensuring robust backend services.</p>
+    </div>
+    <div class="team-card">
+      <img src="https://via.placeholder.com/150" alt="Alice Brown" />
+      <h3>Alice Brown</h3>
+      <h4>UI/UX Designer</h4>
+      <p>Alice crafts intuitive user experiences with elegant and functional designs.</p>
+    </div>
+    <div class="team-card">
+      <img src="https://via.placeholder.com/150" alt="Mark Lee" />
+      <h3>Mark Lee</h3>
+      <h4>DevOps Engineer</h4>
+      <p>Mark ensures smooth deployments and CI/CD pipelines for agile development.</p>
+    </div>
+  </section>
+</body>
+</html>
