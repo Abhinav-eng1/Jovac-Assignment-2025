@@ -1,0 +1,70 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+
+.Header {
+  background-color: #292947;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Header h1 {
+  font-size: 2rem;
+  color: #f0db4f;
+}
+
+
+section > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.cards {
+  width: 120px;
+  height: 120px;
+  background-color: #3a3a5d;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.cards:hover {
+  transform: scale(1.1);
+  background-color: #5c5cf0;
+}
+
+#snare {
+  background-image: url('assets/snare.png');
+  background-size: cover;
+}
+#kick {
+  background-image: url('assets/kick.png');
+  background-size: cover;
+}
+#tom {
+  background-image: url('assets/tom.png');
+  background-size: cover;
+}
+#crash {
+  background-image: url('assets/crash.png');
+  background-size: cover;
+}

@@ -1,0 +1,12 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+  opacity: 0.8;
+  transition: background-color 200ms ease-in, opacity 200ms ease-in;
+}
+
+.box:hover {
+  background-color: #fddb3a;
+  opacity: 1;
+}

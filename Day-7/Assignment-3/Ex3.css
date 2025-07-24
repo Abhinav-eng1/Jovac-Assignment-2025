@@ -1,0 +1,36 @@
+.container {
+    background-color: #e2e2e2;
+    padding: 10px;
+    height: 100vw;
+    
+}
+.item {
+    background-color: tomato;
+    padding: 5px;
+    color: white;
+}/* Reset and background */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Grid Container */
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  /* 4 columns */
+  grid-template-rows: repeat(3, 1fr);     /* 3 rows */
+  grid-gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Grid Items */
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

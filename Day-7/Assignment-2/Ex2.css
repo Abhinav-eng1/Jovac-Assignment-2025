@@ -1,0 +1,45 @@
+.container {
+    background-color: #e2e2e2;
+    padding: 10px;
+    /* write your css here */
+}
+
+.item {
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+
+/* write your css here *//* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container Flexbox Styling */
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;     /* Horizontal alignment */
+  align-items: center;         /* Vertical alignment of items (if 1 row) */
+  align-content: center;       /* Vertical alignment of multiple rows */
+  height: 100vh;               /* Full viewport height */
+  background: #f0f0f0;
+  padding: 10px;
+}
+
+/* Box Styling */
+.box {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  flex: 0 1 150px; /* allows box to shrink and wrap */
+  text-align: center;
+}

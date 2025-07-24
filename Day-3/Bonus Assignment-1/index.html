@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tech Fest Registration</title>
+</head>
+<body>
+
+  <h1>Tech Fest 2025 - Registration Form</h1>
+
+  <form>
+   
+    <div>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required>
+    </div>
+
+ 
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+    </div>
+
+  
+    <div>
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label>
+    </div>
+
+   
+    <div>
+      <label for="dept">Department:</label>
+      <select id="dept">
+        <option value="cse">Computer Science</option>
+        <option value="ece">Electronics</option>
+        <option value="mech">Mechanical</option>
+        <option value="civil">Civil</option>
+      </select>
+    </div>
+
+    <div>
+      <p>Events you're interested in:</p>
+      <input type="checkbox" id="hackathon" value="Hackathon">
+      <label for="hackathon">Hackathon</label><br>
+      <input type="checkbox" id="quiz" value="Tech Quiz">
+      <label for="quiz">Tech Quiz</label><br>
+      <input type="checkbox" id="expo" value="Project Expo">
+      <label for="expo">Project Expo</label>
+    </div>
+
+   
+    <div>
+      <label for="message">Any special requirements:</label><br>
+      <textarea id="message" rows="4" cols="40" placeholder="Let us know if you need anything..."></textarea>
+    </div>
+
+    <br>
+    <button type="submit">Submit Registration</button>
+  </form>
+
+</body>
+</html>
+ 

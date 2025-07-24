@@ -1,0 +1,66 @@
+.container {
+    background-color: #e2e2e2;
+    padding: 10px;
+    /* write your css here */
+}
+
+.item {
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 2px solid #ccc;
+}
+
+/* Common styles for all items */
+.item {
+  padding: 20px;
+  background: #87ceeb;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Flex and Order Properties */
+.item-1 {
+  flex: 2;
+  order: 2;
+}
+
+.item-2 {
+  flex: 1;
+  order: 1;
+}
+
+.item-3 {
+  flex: 2;
+  order: 3;
+}
+
+.item-4 {
+  flex: 1;
+  order: 4;
+}
+
+.item-5 {
+  flex: 2;
+  order: 5;
+}
+
+/* write your css here */

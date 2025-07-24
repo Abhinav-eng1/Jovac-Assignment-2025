@@ -1,0 +1,19 @@
+  /* Hover effect on the button container */
+div.knowMoreBtn:hover {
+  background-color: darkorange;
+  transition: background-color 0.3s ease;
+}
+
+/* Link pseudo-classes for the <a> tag */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: black;
+}

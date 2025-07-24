@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors Practice</title>
+    <style>
+        /* 1. ID selector within a class or element */
+        .container #myHeader {
+            color: red;
+        }
+
+        /* 2. Adjacent sibling selector */
+        div + h3 {
+            color: green;
+        }
+
+        .myText1 + .myText2 {
+            color: orange;
+        }
+
+        /* 3. Attribute selectors for form inputs */
+        .myInput[type="text"], input[type="email"] {
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="myHeader">Welcome to CSS Practice</h1>
+    </div>
+
+    <div>This is a simple div.</div>
+    <h3>This h3 comes right after the div</h3>
+
+    <p class="myText1">This is the first paragraph.</p>
+    <p class="myText2">This is the paragraph right after .myText1</p>
+
+    <form>
+        <input class="myInput" type="text" placeholder="Your name">
+        <input type="email" placeholder="Your email">
+    </form>
+
+</body>
+</html>
